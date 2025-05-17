@@ -1,4 +1,4 @@
-# T-Bomb
+# USRF
 
 This is the <b>official firmware</b> for <b>ESP32</b> <b>(M5StickC Plus2)</b> The Ultrasonic rangefinder game is the simplest for this device
 
@@ -13,7 +13,7 @@ This is the <b>official firmware</b> for <b>ESP32</b> <b>(M5StickC Plus2)</b> Th
 
 4)Next Go to <b>"Sketch>Connect library"</b> Next choose to <b>connect the .zip file and choose the M5StickCPlus2.zip</b> file from the <b>Repository</b> and confirm and wait for the download and after this, <b>re-enter the Arduino IDE</b>
 
-5)Then in <b>File>Open</b> and select the file ESnakeP32.ino then next to it select where the Device is find M5 StickC Plus2 and then go to Flash Requenty and Erase all flash before loading the sketch select Enabled, then next to the check mark select the arrow to the right and wait for loading then turn on the device: <b>Button C (2-3 seconds)</b> and <b>wait for the animation to appear</b>
+5)Then in <b>File>Open</b> and select the file USRF.ino then next to it select where the Device is find M5 StickC Plus2 and then go to Flash Requenty and Erase all flash before loading the sketch select Enabled, then next to the check mark select the arrow to the right and wait for loading then turn on the device: <b>Button C (2-3 seconds)</b>
 
 6)After that connect the Ultrasonic rangefinder <b>(HC-SR04)</b> to:
 
@@ -23,6 +23,7 @@ This is the <b>official firmware</b> for <b>ESP32</b> <b>(M5StickC Plus2)</b> Th
 <b>Echo → GPIO 32.</b>
 
 <b>If something is <b>not working properly</b>, does not load or does not work then write to the administrator: <b>abs.mark.photo@gmail.com</b>
+
 This code has two values: OR and TC, OR is Out of Range, and TC is Too Close; OR is if more than 4 meters, TC if less than 2 cm
 
 # P.S
